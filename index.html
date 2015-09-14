@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+  <head>
+    
+    <style>
+    </style>
+<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+<!-- <script src="js/signaltohertz.js" type="text/javascript"></script> -->
+
+<!-- <script src="js/three.js"></script> -->
+<link rel="stylesheet" type="text/css" href="css/main.css">
+
+
+</head>
+<body>
+
+<div class="upload-overlay">
+  <div class="upload">
+    <!-- <div class="upload-button"> -->
+      <input class="upload-button" type="file">
+      <!-- </div> -->
+      <img src="res/headphone.png">
+  </div>
+
+    <div class="descr">upload a song</div>
+
+</div>
+  <div class="content">
+        <div class="ear left-ear"></div>
+      <div class="ear right-ear"></div>
+
+    <div class="head">
+      <div class="snapback">
+          <div class="snapback-body"></div>
+          <div class="snapback-brim"></div>
+        </div>
+        <!-- <div class="octagon"></div> -->
+      <div class="pentagon"></div>
+        <div class="face-components">
+          <div class="eye left-eye">
+            <div class="pupil left-pupil"></div>
+            <div class="eyelid left-eyelid">
+
+            </div>
+          </div>
+          <div class="eye right-eye">
+            <div class="pupil right-pupil"></div>
+            <div class="eyelid right-eyelid">
+
+            </div>
+          </div>
+          <div class="nose">
+            <div class="bridge">
+            </div>
+            <div class="tip"></div>
+          </div>
+
+
+          <div class="jawline-container">
+            <div class="face"></div>
+          </div>
+
+
+
+          <div class="face-shadow"></div>
+
+          <div class="mouth">
+            <div class="upper-lip"></div>
+            <div class="inside-mouth"></div>
+            <div class="lower-lip"></div>
+          </div>
+          </div> <!-- end of face-components -->
+
+      <!-- </div> -->
+    </div>
+
+  <div class="upperbody">
+
+    <div class="arm left-arm">
+      <div class="hand left-hand"></div> 
+    </div>
+    <div class="arm right-arm">
+      <div class="hand left-hand"></div>
+    </div>
+    <div class="chest"></div>
+  </div>
+
+  <div class="lowerbody">
+    <div class="legs">
+      <div class="thigh-gap">
+      </div>
+    </div>
+    <div class="shoe left-shoe">
+      <div class="stripe"></div>
+      <div class="stripe"></div>
+      <div class="stripe"></div>
+    </div>
+    <div class="shoe right-shoe">
+            <div class="stripe"></div>
+      <div class="stripe"></div>
+      <div class="stripe"></div>
+    </div>
+
+  </div>
+</div>
+
+<div id="controls">
+  <button id="pButton" class="play" onclick="play()"></button>
+  <div id="timeline">    
+        <div id="playhead"></div>
+  </div>
+  <div class='controls-upload-button'>
+    <input id='fileselect' type='file'>
+    <img src="res/up-arrow.png">
+  </div>
+</div>
+
+<script src="js/main.js"></script>
+<script src="js/controls.js"></script>
+
+<!-- <script src="js/headviz.js"></script> -->
+
+</body>
+</html>
