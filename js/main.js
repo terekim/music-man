@@ -16,7 +16,7 @@ function adjustPositions() {
 }
 
 function setContentMargin() {
-  var contentMarginTop = window.innerHeight* 0.06;
+  var contentMarginTop = (window.innerHeight/2) - 300;
  $(".content").css("margin-top", contentMarginTop);
 
 }
