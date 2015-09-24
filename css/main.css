@@ -16,7 +16,6 @@ body {
   background: mediumseagreen;
   z-index: 5;
   top: 0%;
-  /*display: none;*/
 }
 
 .upload {
@@ -43,7 +42,7 @@ body {
 .upload-overlay .descr {
   text-transform: uppercase;
   font-family: 'Lato', sans-serif;
-  font-weight: bold;
+  font-weight: normal;
   margin: auto;
   position: relative;
   text-align: center;
@@ -120,22 +119,16 @@ body {
     height: 284px;
     border: none;
     border-radius: 100px 100px 100px 100px / 100px 100px 200px 200px;
-    /* border-radius: 50% 50% 60% 60% / 50% 50% 100% 100%; */
-    /* box-shadow: 10px 10px 5px #888888; */
     font: normal 100%/normal Arial, Helvetica, sans-serif;
     color: rgba(0,0,0,1);
     -o-text-overflow: clip;
     text-overflow: clip;
-    /* background: bisque; */
-    background: radial-gradient(circle at 50% 40%, bisque 50%, #ffd29d);
-    /* margin: auto; */
+    background: bisque; 
     z-index: 1;
-    /* margin-left: 48px; */
   }
 
 .jawline-container {
     position: absolute;
-    /* bottom: -40px; */
     height: inherit;
 }
 
@@ -188,8 +181,6 @@ body {
 .left-eyelid {
   width: inherit;
   height: inherit;
-/*  -webkit-border-radius: inherit;
-  border-radius: inherit;*/
   position: absolute;
 }
 
@@ -235,15 +226,12 @@ body {
 
 .bridge {
     width: 20px;
-    /* height: 80px; */
     margin-left: 10px;
-    /* margin-top: 100px; */
-    /* background-color: antiquewhite; */
     position: relative;
     margin: auto;
     align-content: center;
     text-align: center;
-    border-bottom: 70px solid navajowhite;
+    border-bottom: 70px solid #ffdbb0;
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
 }
@@ -254,7 +242,7 @@ body {
     margin-top: -26px;
     margin-left: 6px;
     width: 48px;
-    background: navajowhite;
+    background: #ffdbb0;
     border-radius: 30px / 30px;
 }
 
@@ -284,14 +272,12 @@ body {
     z-index: -1;
 }
 .chest {
-  /*position: absolute;*/
   width: 130px;
   height: 160px;
   margin: auto;
   margin-left: 85px;
   z-index: 0;
   background-color: cadetblue;
-  /* border-radius: 40px 90px 10px 10px/ 30px 30px 30px 30px; */
   z-index: 0;
   border-bottom: 22px solid cadetblue;
   border-radius: 100px 100px 100px 100px / 300px 300px 200px 200px;
@@ -349,7 +335,6 @@ body {
     height: 100px;
     width: 50px;
     margin: 20px auto auto 24px;
-    /* top: 16px; */
     position: absolute;
     background-color: palevioletred;
 }
@@ -441,8 +426,6 @@ body {
     position: absolute;
     height: 100px;
     width: 0;
-    /* top: -205px; */
-    /* left: -66px; */
     border-width: 0 100px 35px;
     border-style: solid;
     border-color: #ffdbb0;
