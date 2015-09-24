@@ -8,7 +8,7 @@ Built with WebAudioAPI, and some cool CSS3 animations and transitions.
 
 ### Usage
 
-  - Visit the Demo
+  - [Visit the Demo](http://terekim.github.io/music-man/)
   - Upload a music
   - Press play
 
